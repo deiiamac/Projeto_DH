@@ -29,7 +29,7 @@ header {
 nav {
     display: flex;    
     justify-content: space-around;
-    background-color: var(--cor0);
+    background-color: var(--cor2);
     padding: 2px;
 }
 
