@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/stylesheets/header.css">
+  <link rel="stylesheet" href="/stylesheets/cadastro.css">
+  <title>Cadastre-se</title>
+</head>
+
+<body>
+  <%- include('./partials/header') %>
+
+    <main>
+
+      <section class="loggg">
+
+        <!-- <img src="img/livros-login.png" alt=""> -->
+
+        <section class="login">
+          <form action="" method="post">
+            <h2>Cadastre-se</h2>
+            <section class="form">
+              <label for="nome">Nome</label>
+              <input type="text" name="nome" id="nome">
+              <label for="email">E-mail</label>
+              <input type="email" name="email" id="email">
+              <label for="password">Senha</label>
+              <input type="password" name="password" id="password">
+              <label for="password">Confirmar senha</label>
+              <input type="password" name="password" id="password">
+              <button type="submit">Registrar</button>
+            </section>
+          </form>
+        </section>
+      </section>
+    </main>
+</body>
+
+</html>

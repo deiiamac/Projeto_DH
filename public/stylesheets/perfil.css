@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
+:root {
+  --azulclaro: #62b5e5;
+  --azulescuro: #1d1d27;
+  --branco: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+/*MAIN*/
+main {
+  width: 80%;
+  margin: auto;
+}
+
+main h2 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* width: 100%;
+  margin: auto; */
+  margin-bottom: 50px;  
+}
+
+.foto_perfil {
+  width: 20%;
+}
+
+.foto_perfil img {
+  border-radius: 50%;
+  width: 190px;
+  height: 190px;
+  padding: 20px;  
+}
+
+.info {
+  padding: 0px 0 0 0px;
+  width: 40%;
+  text-align: center;
+}
+
+.info h3 {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.info p {
+  font-size: 15px;
+  padding-bottom: 3px;
+}
+
+.button {
+  background-color: var(--azulescuro);
+  color: var(--branco);
+  transition-duration: 0.7s;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px; 
+  border-radius: 10px;
+  
+}
+
+.editar {
+  width: 50%;
+}
+
+.button:hover {
+  background-color: var(--branco);
+  color: #000;
+
+}
+
+.box_troca {
+  margin-top: 20px;
+  /* width: 80%;
+  margin: auto; */
+  background-color: var(--branco);
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--branco);
+}
+
+.book_box {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 5px;
+}
+
+.book_box p {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+
+footer {
+  background-color: var(--azulclaro);
+  color: var(--branco);
+  margin-top: 20px;
+  height: 10px;
+  padding: 40px;
+  text-align: center;
+}

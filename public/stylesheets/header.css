@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
+:root {
+  --azulclaro: #62b5e5;
+  --azulescuro: #1d1d27;
+  --branco: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+/*Header */
+.topo {
+    display: flex;
+    background-color: #62b5e5;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    color: var(--branco);
+  }
+  
+  .logo a {
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 55px;
+    font-family: 'Moon Dance', cursive;
+    font-weight: 600;
+  }
+  
+  .login-text {
+    font-size: 15px;
+    margin-right: 30px;
+   
+  }
+  
+  .login-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .login-link a {
+    text-decoration: none;
+    color: var(--branco);
+    margin: 0 5px;
+    
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
+  nav {
+    background-color: var(--azulclaro);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+  
+  }
+  
+  nav a {
+    color: var(--branco);
+    font-size: 19px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 3px 10px;
+
+  }
+ 
